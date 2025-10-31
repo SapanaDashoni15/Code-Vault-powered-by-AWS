@@ -1,5 +1,5 @@
 const express = require("express");
-const dotenv = require("dotenv"); // for accessing provate variable
+const dotenv = require("dotenv"); // for accessing private variable
 const cors = require("cors");
 const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
@@ -84,7 +84,9 @@ function startServer() {
     app.use(express.json());
 
     const mongoURI = process.env.MONGODB_URI;
+    console.log("MONGO URI:", process.env.MONGODB_URI);
 
+    
     mongoose
         .connect(mongoURI)
         .then(() => console.log("MongoDB is connected!"))
