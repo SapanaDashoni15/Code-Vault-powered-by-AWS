@@ -5,6 +5,7 @@ const mongoose = require("mongoose");
 const bodyParser = require("body-parser");
 const http = require("http");
 const {Server} = require("socket.io");
+const mainRouter = require("./routes/main.router");
 
 
 const yargs = require("yargs");
@@ -93,6 +94,8 @@ function startServer() {
         .catch((err) => console.log("unable to connect : ", err));
 
     app.use(cors({origin: "*"}));
+
+    app.use("/", mainRouter);
 
     app.get("/", (req, res) => {
         res.send("welcome!");
