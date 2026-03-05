@@ -1,0 +1,16 @@
+this is the file, which i am sending in aws for the testing propose and writing all these which i had to takke for this process
+
+1. $ node index.js start
+
+2. node index.js init 
+
+3. $ node index.js add adding_to_aws.txt 
+
+4. $ node index.js commit "commint an instruction file"
+Commit 82b71296-c1e7-4c57-9d34-93bc6805244a created with message: commint an instruction file
+
+5. $ node index.js push
+
+6. $ node index.js revert 82b71296-c1e7-4c57-9d34-93bc6805244a
+
+

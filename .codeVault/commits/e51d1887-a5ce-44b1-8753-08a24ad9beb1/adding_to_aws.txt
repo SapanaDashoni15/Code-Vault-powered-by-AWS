@@ -1,0 +1,5 @@
+this is the file, which i am sending in aws for the testing propose and writing all these which i had to takke for this process
+
+1. $ node index.js start
+
+2. 
