@@ -84,3 +84,5 @@ AWS_BUCKET_NAME=your_bucket_name
 Backend - npm start
 
 Frontend - npm run dev
+
+Frontend github link - https://github.com/SapanaDashoni15/CodeVault-frontend
